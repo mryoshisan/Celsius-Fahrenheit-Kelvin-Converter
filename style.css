@@ -34,10 +34,9 @@ input::placeholder {
 }
 
 p {
-  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
   font-size: 20px;
   text-transform: uppercase;
-}
-p span {
-  float: right;
 }
